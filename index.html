@@ -32,11 +32,15 @@
     'user_id': 1075
   });
 
+  if (_fout_queue.redirect === void 0) _fout_queue.redirect = {};
+  _fout_queue.redirect['is_redirect'] = true;
+
   (function() {
     var el = document.createElement('script'); el.type = 'text/javascript'; el.async = true;
     el.src = (('https:' == document.location.protocol) ? 'https://' : 'http://') + 'js.fout.jp/segmentation.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(el, s);
   })();
 </script>
+	
 </body>
 </html>
