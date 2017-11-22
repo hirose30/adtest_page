@@ -6,7 +6,7 @@
 <body>
  <h1><a href=".">Freak Out Ad Test</a></h1>
 
-<script type="text/javascript">
+ <script type="text/javascript">
   var _fout_queue = _fout_queue || {}; if (_fout_queue.segment === void 0) _fout_queue.segment = {};
   if (_fout_queue.segment.queue === void 0) _fout_queue.segment.queue = [];
 
@@ -15,12 +15,16 @@
     'segment_id': 1331162
   });
 
+  if (_fout_queue.redirect === void 0) _fout_queue.redirect = {};
+  _fout_queue.redirect['is_redirect'] = true;
+
   (function() {
     var el = document.createElement('script'); el.type = 'text/javascript'; el.async = true;
     el.src = (('https:' == document.location.protocol) ? 'https://' : 'http://') + 'js.fout.jp/segmentation.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(el, s);
   })();
 </script>
-
+ 
+ 
 </body>
 </html>
